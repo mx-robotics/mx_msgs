@@ -46,8 +46,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
-  Offset.msg
-  Offsets.msg
+  TopicOffset.msg
+  TopicOffsets.msg
 )
 
 ## Generate services in the 'srv' folder
